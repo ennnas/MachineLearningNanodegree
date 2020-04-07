@@ -10,10 +10,10 @@ import pickle
 import os
 import glob
 
+
 def review_to_words(review):
     nltk.download("stopwords", quiet=True)
-    stemmer = PorterStemmer()
-    
+
     text = BeautifulSoup(review, "html.parser").get_text() # Remove HTML tags
     text = re.sub(r"[^a-zA-Z0-9]", " ", text.lower()) # Convert to lower case
     words = text.split() # Split string into words
@@ -21,6 +21,7 @@ def review_to_words(review):
     words = [PorterStemmer().stem(w) for w in words] # stem
     
     return words
+
 
 def convert_and_pad(word_dict, sentence, pad=500):
     NOWORD = 0 # We will use 0 to represent the 'no word' category
