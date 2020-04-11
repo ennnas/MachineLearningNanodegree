@@ -15,6 +15,11 @@ notebook = "^6.0.3"
 tqdm = "^4.45.0"
 sagemaker = "^1.55.0"
 jupyterthemes = "^0.20.0"
+torch = "^1.4.0"
+torchvision = "^0.5.0"
+sagemaker-containers = "^2.8.6"
+mxnet = "^1.6.0"
+seaborn = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
 
