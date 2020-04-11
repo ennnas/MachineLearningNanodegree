@@ -1,4 +1,4 @@
-# Grizzly
+# Machine Learning Nanodegree
 
 [![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg)](https://shields.io/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
